@@ -11,6 +11,7 @@
 # Snap - STOP USING SNAP, better use APT or Flatpaks
 # apt install -y snapd
 
+# trying to filter this test text
 ############################################ APT ################################################
 # Update APT 
 apt update -y
