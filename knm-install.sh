@@ -140,10 +140,10 @@ add-apt-repository -y ppa:solaar-unifying/stable
 apt update -y
 apt install -y solaar
 
-# Pinta Project
-add-apt-repository ppa:pinta-maintainers/pinta-stable
-apt update
-apt install pinta
+# Pinta Project - replaced by flatpak
+# add-apt-repository ppa:pinta-maintainers/pinta-stable
+# apt update
+# apt install pinta
 
 # Inkscape - Best Adobe Illustrator replacement
 add-apt-repository -y ppa:inkscape.dev/stable
@@ -173,6 +173,9 @@ flatpak install -y flathub org.telegram.desktop
 
 # Emote
 flatpak install -y com.tomjwatson.Emote
+
+# Pinta
+flatpak install -y flathub com.github.PintaProject.Pinta
 
 # Krita
 flatpak install -y flathub org.kde.krita
