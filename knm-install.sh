@@ -123,8 +123,8 @@ apt install -y tuxguitar
 # nomacs
 apt install -y nomacs
 
-# VLC
-apt install -y vlc
+# VLC, mpv, celluloid
+apt install -y vlc mpv celluloid
 
 # iBus - A MUST if you type in many different alphabets
 apt install -y ibus
