@@ -59,6 +59,15 @@ apt install -y git-all
 apt install -y neovim
 apt install -y python3-neovim
 
+# Calcurse
+apt install -y calcurse
+
+# Screensavers
+apt install -y hollywood sneakers cmatrix
+
+# yt-dlp
+apt install -y yt-dlp
+
 # ----------GUI----------
 
 # Speedcrunch
@@ -75,15 +84,6 @@ apt install -y kruler
 
 # Filezilla
 apt install -y filezilla
-
-# Calcurse
-apt install -y calcurse
-
-# Screensavers
-apt install -y hollywood sneakers cmatrix
-
-# yt-dlp
-apt install -y yt-dlp
 
 # Barrier (Open-source KVM software)
 apt install -y barrier
