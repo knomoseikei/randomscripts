@@ -68,6 +68,12 @@ apt install -y hollywood sneakers cmatrix
 # yt-dlp
 apt install -y yt-dlp
 
+# ADB
+apt install -y adb
+
+# Ruby Language
+apt install -y ruby-full
+
 # ----------GUI----------
 
 # Speedcrunch
@@ -87,12 +93,6 @@ apt install -y filezilla
 
 # Barrier (Open-source KVM software)
 apt install -y barrier
-
-# ADB
-apt install -y adb
-
-# Ruby Language
-apt install -y ruby-full
 
 # SQLite Browser
 apt install -y sqlitebrowser
