@@ -188,6 +188,9 @@ flatpak install -y flathub fr.handbrake.ghb
 # Dust - https://github.com/bootandy/dust
 cargo install du-dust
 
+# Dysk - Filesystem list
+cargo install --locked dysk
+
 ############################################ Gems ###############################################
 
 # Jekyll
