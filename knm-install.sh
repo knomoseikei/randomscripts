@@ -183,6 +183,9 @@ flatpak install -y flathub org.kde.krita
 # Handbrake
 flatpak install -y flathub fr.handbrake.ghb
 
+# Bottles
+flatpak install -y flathub com.usebottles.bottles
+
 ############################################ Cargo ###############################################
 
 # Dust - https://github.com/bootandy/dust
