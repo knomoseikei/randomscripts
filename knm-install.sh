@@ -194,6 +194,11 @@ cargo install du-dust
 # Dysk - Filesystem list
 cargo install --locked dysk
 
+############################################ Go ###############################################
+
+# Glow - https://github.com/charmbracelet/glow
+go install github.com/charmbracelet/glow@latest
+
 ############################################ Gems ###############################################
 
 # Jekyll
