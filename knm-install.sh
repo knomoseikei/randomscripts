@@ -227,6 +227,7 @@ gem install bundler jekyll
 - AppImageLauncher, install it from the appimage file https://github.com/TheAssassin/AppImageLauncher
 - Audacity, https://www.audacityteam.org/download/linux/
 - Digikam, https://www.digikam.org/download/
+- Cursor, https://www.cursor.com/ 
 
 # By Tarball / Standalone
 - Aria2, https://aria2.github.io/
