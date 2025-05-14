@@ -203,6 +203,7 @@ gem install bundler jekyll
 : '
 # By scripts
 - Anaconda, https://www.anaconda.com/download/success
+- Go lang, https://go.dev/doc/install
 - Kitty, https://sw.kovidgoyal.net/kitty/binary/
 - Node.js, https://nodejs.org/en/download
 - Rust, https://www.rust-lang.org/tools/install
