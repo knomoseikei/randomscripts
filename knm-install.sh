@@ -126,6 +126,9 @@ apt install -y nomacs
 # VLC, mpv, celluloid
 apt install -y vlc mpv celluloid
 
+# Cheese - webcam
+apt install -y cheese
+
 # iBus - A MUST if you type in many different alphabets
 apt install -y ibus
 apt install -y ibus-m17n
