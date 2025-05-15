@@ -186,6 +186,9 @@ flatpak install -y flathub fr.handbrake.ghb
 # Bottles
 flatpak install -y flathub com.usebottles.bottles
 
+# Gromit-MPX - GRaphics Over MIscellaneous Things – Multi-Pointer EXtension
+flatpak install -y flathub net.christianbeier.Gromit-MPX
+
 ############################################ Cargo ###############################################
 
 # Dust - https://github.com/bootandy/dust
