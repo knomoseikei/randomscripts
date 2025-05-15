@@ -242,6 +242,7 @@ gem install bundler jekyll
 - Aria2, https://aria2.github.io/
 - Postman, https://www.postman.com/downloads/
 - Zotero, https://www.zotero.org/download/
+- Pylote, draw on screen http://pascal.peter.free.fr/pylote.html http://pascal.peter.free.fr/pylote-en.html https://gitlab.com/edleh/pylote
 
 # By manual compile
 - scrcpy (Screen mirror for Android), repo compile https://github.com/Genymobile/scrcpy
