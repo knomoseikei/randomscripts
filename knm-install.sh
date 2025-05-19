@@ -203,6 +203,12 @@ cargo install du-dust
 # Dysk - Filesystem list
 cargo install --locked dysk
 
+############################################ Pip3 ##############################################
+
+# Buku - next time check if installing from source avoid using pip3 (for good!)
+# https://github.com/jarun/buku
+pip3 install buku
+
 ############################################ Go ###############################################
 
 # Glow - https://github.com/charmbracelet/glow
@@ -256,8 +262,6 @@ gem install bundler jekyll
 - Yazi, install all dependencies and build https://yazi-rs.github.io/
 
 ###################### OTHER NOT CATEGORIZED OR TO BE REVISED ######################
-
-# Buku, for url bookmarks https://github.com/jarun/buku
 
 # install WPS Office, Deb package https://www.wps.com/download/ - ON HOLD, because brokes on Mint
 # Replaced by Office 365
