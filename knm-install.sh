@@ -252,6 +252,7 @@ gem install bundler jekyll
 
 # By Tarball / Standalone
 - Aria2, https://aria2.github.io/
+- NuhxBoard, NohBoard alternative for Linux https://github.com/justDeeevin/NuhxBoard
 - Postman, https://www.postman.com/downloads/
 - Pylote, draw on screen http://pascal.peter.free.fr/pylote.html http://pascal.peter.free.fr/pylote-en.html https://gitlab.com/edleh/pylote
 - Zotero, https://www.zotero.org/download/
