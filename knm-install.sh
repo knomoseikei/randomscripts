@@ -229,7 +229,7 @@ gem install bundler jekyll
 - Rust, https://www.rust-lang.org/tools/install
 - Spotify, signatures before APT install, https://www.spotify.com/us/download/linux/
 - Sublime Text, signatures before APT install, https://www.sublimetext.com/
-- Vysor signatures before APT install, https://www.vysor.io/download/linux
+- Vysor, signatures before APT install, https://www.vysor.io/download/linux
 
 # - install Wine + Winbind + Winetricks - BETTER MANUALLY because of configuration
 # - apt install -y wine64 winbind winetricks
@@ -247,14 +247,14 @@ gem install bundler jekyll
 # By AppImage
 - AppImageLauncher, install it from the appimage file https://github.com/TheAssassin/AppImageLauncher
 - Audacity, https://www.audacityteam.org/download/linux/
-- Digikam, https://www.digikam.org/download/
 - Cursor, https://www.cursor.com/ 
+- Digikam, https://www.digikam.org/download/
 
 # By Tarball / Standalone
 - Aria2, https://aria2.github.io/
 - Postman, https://www.postman.com/downloads/
-- Zotero, https://www.zotero.org/download/
 - Pylote, draw on screen http://pascal.peter.free.fr/pylote.html http://pascal.peter.free.fr/pylote-en.html https://gitlab.com/edleh/pylote
+- Zotero, https://www.zotero.org/download/
 
 # By manual compile
 - scrcpy (Screen mirror for Android), repo compile https://github.com/Genymobile/scrcpy
@@ -264,7 +264,7 @@ gem install bundler jekyll
 ###################### OTHER NOT CATEGORIZED OR TO BE REVISED ######################
 
 # install WPS Office, Deb package https://www.wps.com/download/ - ON HOLD, because brokes on Mint
-# Replaced by Office 365
+# Replaced by Office 365 web
 
 # Homebrew Package Manager - CURRENTLY NOT NEEDED
 # /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -273,8 +273,8 @@ gem install bundler jekyll
 
 # install BleachBit, Deb package https://www.bleachbit.org/download/linux -  GOOD for WINDOWS, BAD for LINUX
 # install VirtualBox, Deb package https://www.virtualbox.org/wiki/Linux_Downloads - REPLACED by QEMU, KVM, GNOME Boxes
-# install Xmind, Deb package https://xmind.app/download/ - REPLACED for Freeplane
+# install Xmind, Deb package https://xmind.app/download/ - REPLACED by Freeplane
 # Ookla Speedtest - NOT SURE IF RELIABLE
-# MyPaint - NOT SURE IF RELIABLE, REPLACE BY PINTA
+# MyPaint - NOT SURE IF RELIABLE, REPLACED by PINTA
 
 '
