@@ -66,7 +66,10 @@ apt install -y calcurse
 apt install -y hollywood sneakers cmatrix
 
 # yt-dlp
-apt install -y yt-dlp
+a1t install -y yt-dlp
+
+# QEMU
+apt install -y qemu-system
 
 # ADB
 apt install -y adb
