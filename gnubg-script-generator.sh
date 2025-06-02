@@ -11,6 +11,10 @@ if ! [[ "$N" =~ ^[0-9]+$ ]] || [ "$N" -lt 1 ]; then
     exit 1
 fi
 
+# Print initial time
+initial_time=$(date +"%Y.%m.%d_%H.%M.%S_%6N")
+echo "Script started at: $initial_time"
+
 # Define output file name
 output_file="gnubg_commands.cmd"
 
@@ -34,4 +38,9 @@ get_timestamp() {
     done
 } > "$output_file"
 
+# Print finish time
+finish_time=$(date +"%Y.%m.%d_%H.%M.%S_%6N")
+
+echo "Script started at  : $initial_time"
+echo "Script finished at : $finish_time"
 echo "Created $output_file with $N match sections successfully."
