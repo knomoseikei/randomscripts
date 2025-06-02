@@ -16,7 +16,7 @@ output_file="gnubg_commands.cmd"
 
 # Function to generate timestamp in YYYY.MM.DD.mm.ss.ms format
 get_timestamp() {
-    date +"%Y.%m.%d.%H.%M.%S.%3N"
+    date +"%Y.%m.%d_%H.%M.%S_%6N"
 }
 
 # Start writing to the .cmd file
