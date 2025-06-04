@@ -262,6 +262,21 @@ gem install bundler jekyll
 - Speedread, https://github.com/pasky/speedread # idea: translate to rust
 - Yazi, install all dependencies and build https://yazi-rs.github.io/
 
+###################### TO BE TESTED ########################
+
+# Collaborative Whiteboard software
+## Lorien
+https://github.com/mbrlabs/Lorien
+
+## OpenBoard
+https://openboard.ch/
+
+## DeepNotes
+https://deepnotes.app/
+
+## Excalidraw
+https://deepnotes.app/
+
 ###################### OTHER NOT CATEGORIZED OR TO BE REVISED ######################
 
 # install WPS Office, Deb package https://www.wps.com/download/ - ON HOLD, because brokes on Mint
