@@ -16,7 +16,7 @@
 # Update APT 
 apt update -y
 
-# ----------TERMINAL----------
+# --------------------TERMINAL--------------------
 
 # URL transfer data tool
 apt install -y curl
@@ -77,7 +77,10 @@ apt install -y adb
 # Ruby Language
 apt install -y ruby-full
 
-# ----------GUI----------
+# shc (Shell Script Compiler)
+apt install -y shc
+
+# --------------------GUI--------------------
 
 # Speedcrunch
 apt install -y speedcrunch
@@ -182,6 +185,9 @@ flatpak install -y com.tomjwatson.Emote
 
 # Pinta
 flatpak install -y flathub com.github.PintaProject.Pinta
+
+# Zettlr - Markdown gui editor
+flatpak install -y flathub com.zettlr.Zettlr
 
 # Krita
 flatpak install -y flathub org.kde.krita
