@@ -267,6 +267,7 @@ gem install bundler jekyll
 - Zotero, https://www.zotero.org/download/
 
 # By manual compile
+- keynav (Retire your mouse), repo compile https://www.semicomplete.com/projects/keynav/
 - scrcpy (Screen mirror for Android), repo compile https://github.com/Genymobile/scrcpy
 - Speedread, https://github.com/pasky/speedread # idea: translate to rust
 - Yazi, install all dependencies and build https://yazi-rs.github.io/
