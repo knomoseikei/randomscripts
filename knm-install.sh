@@ -77,6 +77,9 @@ apt install -y adb
 # Ruby Language
 apt install -y ruby-full
 
+# HUGO - Static Site Generator
+apt install -y hugo
+
 # shc (Shell Script Compiler)
 apt install -y shc
 
