@@ -287,6 +287,9 @@ https://deepnotes.app/
 ## Excalidraw
 https://deepnotes.app/
 
+## Hugo - Static Web Generator
+https://gohugo.io
+
 ###################### OTHER NOT CATEGORIZED OR TO BE REVISED ######################
 
 # install WPS Office, Deb package https://www.wps.com/download/ - ON HOLD, because brokes on Mint
