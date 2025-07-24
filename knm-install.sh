@@ -256,6 +256,7 @@ gem install bundler jekyll
 - Draw.io, https://github.com/jgraph/drawio-desktop/releases
 - Dropbox, https://www.dropbox.com/install-linux
 - Freeplane, https://docs.freeplane.org/home.html - replace for apt
+- ONLYOFFICE, https://www.onlyoffice.com/download-desktop.aspx
 - Pencil Project, https://pencil.evolus.vn/Downloads.html
 - Steam, https://store.steampowered.com/about/download
 - VSCodium, https://github.com/VSCodium/vscodium/releases
