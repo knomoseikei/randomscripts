@@ -83,6 +83,9 @@ apt install -y hugo
 # shc (Shell Script Compiler)
 apt install -y shc
 
+# Taskwarrior
+apt install -y taskwarrior
+
 # --------------------GUI--------------------
 
 # Speedcrunch
