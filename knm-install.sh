@@ -177,6 +177,12 @@ add-apt-repository ppa:obsproject/obs-studio -y
 apt update -y
 apt install -y obs-studio
 
+# Browsers
+apt install -y firefox
+apt install -y librewolf
+apt install -y qutebrowser
+# for Chrome, check deb install
+# for Brave, check manual apt install
 
 ############################################ Flatpak ############################################
 
@@ -232,6 +238,7 @@ gem install bundler jekyll
 : '
 # By scripts
 - Anaconda, https://www.anaconda.com/download/success
+- Brave Browser, https://brave.com/linux/
 - Go lang, https://go.dev/doc/install
 - Kitty, https://sw.kovidgoyal.net/kitty/binary/
 - Node.js, https://nodejs.org/en/download
@@ -244,6 +251,7 @@ gem install bundler jekyll
 # - apt install -y wine64 winbind winetricks
 
 # By Deb package
+- Google Chrome, https://www.google.com/chrome/ - (for Selenium use, duh!)
 - Discord, https://discord.com/download?linux
 - Draw.io, https://github.com/jgraph/drawio-desktop/releases
 - Dropbox, https://www.dropbox.com/install-linux
