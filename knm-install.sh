@@ -246,6 +246,7 @@ gem install bundler jekyll
 - Kitty, https://sw.kovidgoyal.net/kitty/binary/
 - Node.js, https://nodejs.org/en/download
 - Rust, https://www.rust-lang.org/tools/install
+- Signal, https://signal.org/download/
 - Spotify, signatures before APT install, https://www.spotify.com/us/download/linux/
 - Sublime Text, signatures before APT install, https://www.sublimetext.com/
 - Vysor, signatures before APT install, https://www.vysor.io/download/linux
