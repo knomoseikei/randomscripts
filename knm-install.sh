@@ -10,6 +10,40 @@
 # About Snap - STOP USING SNAP, better use APT or Flatpaks
 
 # trying to filter this test text
+
+############################################
+# Function to display usage information
+
+show_usage() {
+    echo "FavSW Instalaĵa Skripto"
+    echo "=========================="
+    echo "Bonvolu, elektu opcion N°#:"
+    echo "1 - APT programaro por knm-pcx"
+    echo "2 - APT programaro por knm-lapx"
+    echo "3 - APT programaro por knm-cbd"
+    echo "4 - Cargo (Rust) programaro"
+    echo "5 - Pip3 (Python) programaro"
+    echo "6 - Go (Golang) programaro"
+    echo "7 - Gem (Ruby) programaro"
+    echo "8 - PACMAN programaro por knm-pcx"
+    echo "9 - PACMAN programaro por knm-lapx"
+    echo "10 - PACMAN programaro por knm-cbdx"
+    echo "0 - Montri manan instalaĵan programaron"
+    echo ""
+    echo "Uzado: $0 [opcio]"
+    exit 1
+}
+
+# Kontroli ĉu argumento estis provizita
+if [ $# -eq 0 ]; then
+    show_usage
+fi
+
+echo "FavSW Instalaĵa Skripto"
+echo "======================="
+
+exit 0
+
 ############################################ APT ################################################
 # Update APT 
 apt update -y
