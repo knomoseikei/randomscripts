@@ -94,6 +94,10 @@ apt install -y speedcrunch
 # Flameshot - Best Tool for screenshots
 apt install -y flameshot
 
+# Rofi - A window switcher, Application launcher and dmenu replacement.
+# remember to run it with the line: $ rofi -i -show drun -modi drun -show-icons
+apt install -y rofi
+
 # Gnome Screen Ruler
 apt install -y screenruler
 
