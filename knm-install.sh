@@ -7,9 +7,7 @@
 # Correr este script con la siguiente línea
 # Correr "dos2unix knm-install.sh" para evitar cualquier incompatibilidad por texto de PASTEBIN
 
-
-# Snap - STOP USING SNAP, better use APT or Flatpaks
-# apt install -y snapd
+# About Snap - STOP USING SNAP, better use APT or Flatpaks
 
 # trying to filter this test text
 ############################################ APT ################################################
