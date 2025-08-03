@@ -2,15 +2,6 @@
 
 ############################################ NOTES ##############################################
 # Este script debería ser público desde pastbin.com
-# Se utilizará sólo para instalar todo los softwares de apt, apt-get, brew
-
-# Correr este script con la siguiente línea
-# Correr "dos2unix knm-install.sh" para evitar cualquier incompatibilidad por texto de PASTEBIN
-
-# About Snap - STOP USING SNAP, better use APT or Flatpaks
-
-# trying to filter this test text
-
 ############################################
 # Function to display usage information
 
@@ -42,20 +33,26 @@ if [ $# -eq 0 ]; then
     show_usage
 fi
 
-echo "FavSW Instalaĵa Skripto"
-echo "======================="
-
 case $1 in
     0)
 	echo "0 - Notoj"
-	echo "- About Snap: NEVER USE IT"
-	echo "- About BleachBit: GOOD for Windows, BAD for LINUX"
-	echo "- About VirtualBox: Try to replace it with QEMU, as possible"
-	echo "- About Xmind: REPLACED by Freeplane."
-	echo "- About Ookla Speedtest: NOT SURE IF RELIABLE"
-	echo "- About MyPaint: NOT SURE IF RELIABLE, REPLACED by PINTA"
-	echo "- About WPS Office (by Deb package): broked before, REPLACED by Office 365/ONLYOFFICE/LibreOffice"
-	echo "- About Homebrew (by script): CURRENTLY NOT NEEDED"
+	echo "========="
+	echo "# uzitaj:"
+	echo "- About running from pastebin: use next line to avoid text incompatibility $ dos2unix knm-install.sh"
+	echo "- Pri Rofi: Run it like this $ rofi -i -show drun -modi drun -show-icons"
+	echo "- Pri Solaar: Linux manager for many Logitech devices with Unifying, Bolt, Lightspeed or Nano receiver."
+	echo "- Pri Buku: Next time check if installing from source avoids using pip3 (for good!)"
+	echo "- Pri Gromit-MPX: GRaphics Over MIscellaneous Things - Multi-Pointer eXtension"
+	echo "# ne-uzitaj:"
+	echo "- About this script: Devas esti havebla cxe pastebin.com"
+	echo "- Pri Snap: NEVER USE IT"
+	echo "- Pri BleachBit: GOOD for Windows, BAD for LINUX"
+	echo "- Pri VirtualBox: Try to replace it with QEMU, as possible"
+	echo "- Pri Xmind: REPLACED by Freeplane."
+	echo "- Pri Ookla Speedtest: NOT SURE IF RELIABLE"
+	echo "- Pri MyPaint: NOT SURE IF RELIABLE, REPLACED by PINTA"
+	echo "- Pri WPS Office (by Deb package): broked before, REPLACED by Office 365/ONLYOFFICE/LibreOffice"
+	echo "- Pri Homebrew (by script): CURRENTLY NOT NEEDED"
 	;;
     1)
 	echo "1 - APT programaro por knm-pcx"
@@ -186,6 +183,79 @@ case $1 in
 	;;
     2)
 	echo "2 - APT programaro por knm-lapx"
+	apt update -y
+	# --------------------TERMINAL--------------------
+	apt install -y curl
+	apt install -y tmux
+	apt install -y lsd
+	apt install -y imagemagick
+	apt install -y mc ranger
+	apt install -y ncdu gdu
+	apt install -y cpufetch
+	apt install -y ddgr
+	apt install -y btop
+	apt install -y tldr
+	apt install -y git-all
+	apt install -y neovim
+	apt install -y python3-neovim
+	apt install -y calcurse
+	apt install -y hollywood sneakers cmatrix
+	apt install -y yt-dlp
+	apt install -y hugo
+	apt install -y shc
+	apt install -y taskwarrior
+	# --------------------- GUI ---------------------
+	apt install -y speedcrunch
+	apt install -y flameshot
+	apt install -y filezilla
+	apt install -y sqlitebrowser
+	apt install -y meld
+	apt install -y rofi
+	apt install -y kruler
+	apt install -y barrier
+	
+	apt install -y baobab
+	apt install -y gnome-disk-utility
+	apt install -y gparted
+	apt install -y gsmartcontrol
+
+	apt install -y nomacs
+	apt install -y vlc mpv celluloid
+	apt install -y cheese
+	apt install -y ibus
+	apt install -y ibus-m17n
+
+	# KeePassXC 
+	add-apt-repository -y ppa:phoerious/keepassxc
+	apt update -y
+	apt install -y keepassxc
+
+	# Solaar 
+	add-apt-repository -y ppa:solaar-unifying/stable
+	apt update -y
+	apt install -y solaar
+
+	echo "Pinta Project - check if APT works fine"
+	echo "add-apt-repository ppa:pinta-maintainers/pinta-stable"
+	echo "apt update"
+	echo "apt install pinta"
+	
+	# Inkscape - Best Adobe Illustrator replacement
+	add-apt-repository -y ppa:inkscape.dev/stable
+	apt update -y
+	apt install -y inkscape
+
+	# OBS
+	add-apt-repository ppa:obsproject/obs-studio -y
+	apt update -y
+	apt install -y obs-studio
+
+	# Browsers
+	apt install -y firefox
+	apt install -y librewolf
+	apt install -y qutebrowser
+	echo "for Chrome, check deb install"
+	echo "for Brave, check manual apt install"
 	;;
     3)
 	echo "3 - APT programaro por knm-cdb"
@@ -205,10 +275,6 @@ case $1 in
 	apt install -y calcurse
 	apt install -y hollywood sneakers cmatrix
 	apt install -y yt-dlp
-	# apt install -y qemu-system
-	# apt install -y adb
-	# apt install -y ruby-full
-	# apt install -y hugo
 	apt install -y shc
 	apt install -y taskwarrior
 	;;
@@ -222,7 +288,6 @@ case $1 in
         flatpak install -y flathub org.kde.krita
         flatpak install -y flathub fr.handbrake.ghb
         flatpak install -y flathub com.usebottles.bottles
-        # Gromit-MPX - GRaphics Over MIscellaneous Things – Multi-Pointer EXtension
         flatpak install -y flathub net.christianbeier.Gromit-MPX
 	;;
     11)
@@ -236,8 +301,7 @@ case $1 in
     12)
 	echo "12 - Pip3 (Python) programaro"
 
-	# Buku - next time check if installing from source avoids using pip3 (for good!)
-	# https://github.com/jarun/buku
+	# Buku - https://github.com/jarun/buku
 	pip3 install buku
 	;;
     13)
@@ -261,8 +325,8 @@ case $1 in
 	echo "23 - PACMAN programaro por knm-cbdx"
 	;;
     31)
-	echo "0 - Montri manan instalajxan programaron"
-	echo "========================================"
+	echo "31 - Montri manan instalajxan programaron"
+	echo "========================================="
 	echo ""
 	echo "# By scripts"
 	echo "- Anaconda, https://www.anaconda.com/download/success"
@@ -311,6 +375,8 @@ case $1 in
 	;;
     32)
 	echo "32 - Montri esti-testitan programaron"
+	echo "====================================="
+	echo ""
 	echo "# Collaborative Whiteboard software"
 	echo "- Lorien - https://github.com/mbrlabs/Lorien"
 	echo "- OpenBoard - https://openboard.ch/"
