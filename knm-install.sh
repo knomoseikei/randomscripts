@@ -77,7 +77,7 @@ case $1 in
 	apt install -y rofi i3
 	apt install -y speedcrunch meld screenruler kruler
 	apt install -y flameshot nomacs
-	apt install -y filezilla sqlitebrowser
+	apt install -y seahorse filezilla sqlitebrowser
 	apt install -y scribus
 	apt install -y tuxguitar
 	apt install -y vlc mpv celluloid cheese
@@ -166,7 +166,7 @@ case $1 in
 	apt install -y rofi i3
 	apt install -y speedcrunch meld kruler
 	apt install -y ibus ibus-m17n
-	apt install -y filezilla barrier sqlitebrowser
+	apt install -y seahorse filezilla barrier sqlitebrowser
 	apt install -y baobab gnome-disk-utility gparted gsmartcontrol
 	apt install -y flameshot nomacs
 	apt install -y vlc mpv celluloid cheese
