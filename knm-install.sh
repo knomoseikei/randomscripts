@@ -74,7 +74,7 @@ case $1 in
 
 	# --------------------GUI--------------------
 
-	apt install -y rofi
+	apt install -y rofi i3
 	apt install -y speedcrunch meld screenruler kruler
 	apt install -y flameshot nomacs
 	apt install -y filezilla sqlitebrowser
@@ -163,7 +163,7 @@ case $1 in
 	apt install -y hugo
 	apt install -y taskwarrior
 	# --------------------- GUI ---------------------
-	apt install -y rofi
+	apt install -y rofi i3
 	apt install -y speedcrunch meld kruler
 	apt install -y ibus ibus-m17n
 	apt install -y filezilla barrier sqlitebrowser
