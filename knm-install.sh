@@ -54,7 +54,7 @@ case $1 in
 	echo "1 - APT programaro por knm-pcx"
 	apt update -y
 	# --------------------TERMINAL--------------------
-	apt install -y curl aria2 flatpak
+	apt install -y curl wget aria2 flatpak
 	apt install -y tldr tmux lsd shc
 	apt install -y imagemagick
 	apt install -y mc ranger
@@ -148,7 +148,7 @@ case $1 in
 	echo "2 - APT programaro por knm-lapx"
 	apt update -y
 	# --------------------TERMINAL--------------------
-	apt install -y curl aria2 flatpak
+	apt install -y curl wget aria2 flatpak
 	apt install -y tldr tmux lsd shc
 	apt install -y imagemagick
 	apt install -y mc ranger
@@ -206,7 +206,7 @@ case $1 in
     3)
 	echo "3 - APT programaro por knm-cdb"
 	apt update -y
-	apt install -y curl aria2
+	apt install -y curl wget aria2
 	apt install -y tldr tmux lsd shc
 	apt install -y imagemagick
 	apt install -y mc ranger
