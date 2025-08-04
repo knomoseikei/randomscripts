@@ -59,6 +59,7 @@ case $1 in
 	apt update -y
 	# --------------------TERMINAL--------------------
 	apt install -y curl
+	apt install -y aria2
 	apt install -y tmux
 	apt install -y lsd
 	apt install -y imagemagick
@@ -186,6 +187,7 @@ case $1 in
 	apt update -y
 	# --------------------TERMINAL--------------------
 	apt install -y curl
+	apt install -y aria2
 	apt install -y tmux
 	apt install -y lsd
 	apt install -y imagemagick
@@ -260,6 +262,7 @@ case $1 in
     3)
 	echo "3 - APT programaro por knm-cdb"
 	apt install -y curl
+	apt install -y aria2
 	apt install -y tmux
 	apt install -y lsd
 	apt install -y imagemagick
@@ -361,7 +364,6 @@ case $1 in
 	echo "- Digikam, https://www.digikam.org/download/"
 	echo ""
 	echo "# By Tarball / Standalone"
-	echo "- Aria2, https://aria2.github.io/"
 	echo "- NuhxBoard, NohBoard alternative for Linux https://github.com/justDeeevin/NuhxBoard"
 	echo "- Postman, https://www.postman.com/downloads/"
 	echo "- Pylote, draw on screen http://pascal.peter.free.fr/pylote.html http://pascal.peter.free.fr/pylote-en.html https://gitlab.com/edleh/pylote"
