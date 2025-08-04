@@ -54,7 +54,7 @@ case $1 in
 	echo "1 - APT programaro por knm-pcx"
 	apt update -y
 	# --------------------TERMINAL--------------------
-	apt install -y curl aria2
+	apt install -y curl aria2 flatpak
 	apt install -y tldr tmux lsd shc
 	apt install -y imagemagick
 	apt install -y mc ranger
@@ -148,7 +148,7 @@ case $1 in
 	echo "2 - APT programaro por knm-lapx"
 	apt update -y
 	# --------------------TERMINAL--------------------
-	apt install -y curl aria2
+	apt install -y curl aria2 flatpak
 	apt install -y tldr tmux lsd shc
 	apt install -y imagemagick
 	apt install -y mc ranger
@@ -223,6 +223,7 @@ case $1 in
     4)
 	echo "4 - Flatpak programaro"
 
+	flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
         flatpak install -y flathub org.telegram.desktop
         flatpak install -y com.tomjwatson.Emote
         flatpak install -y flathub com.github.PintaProject.Pinta
