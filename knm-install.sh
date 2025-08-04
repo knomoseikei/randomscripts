@@ -59,7 +59,7 @@ case $1 in
 	apt install -y imagemagick
 	apt install -y mc ranger
 	apt install -y ncdu gdu btop
-	apt install -y cpufetch
+	apt install -y neofetch cpufetch
 	apt install -y ddgr
 	apt install -y git-all
 	apt install -y neovim python3-neovim
@@ -153,7 +153,7 @@ case $1 in
 	apt install -y imagemagick
 	apt install -y mc ranger
 	apt install -y ncdu gdu btop
-	apt install -y cpufetch
+	apt install -y neofetch cpufetch
 	apt install -y ddgr
 	apt install -y git-all
 	apt install -y neovim python3-neovim
@@ -211,7 +211,7 @@ case $1 in
 	apt install -y imagemagick
 	apt install -y mc ranger
 	apt install -y ncdu gdu btop
-	apt install -y cpufetch
+	apt install -y neofetch cpufetch
 	apt install -y ddgr
 	apt install -y git-all
 	apt install -y neovim python3-neovim
