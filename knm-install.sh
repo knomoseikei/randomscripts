@@ -271,7 +271,7 @@ case $1 in
 	echo "========================================="
 	echo ""
 	echo "# By scripts"
-	echo "- Anaconda, https://www.anaconda.com/download/success"
+	echo "- Anaconda (and Miniconda), https://www.anaconda.com/download/success"
 	echo "- Brave Browser, https://brave.com/linux/"
 	echo "- Go lang, https://go.dev/doc/install"
 	echo "- Kitty, https://sw.kovidgoyal.net/kitty/binary/"
