@@ -294,6 +294,7 @@ case $1 in
 	echo "- Pencil Project, https://pencil.evolus.vn/Downloads.html"
 	echo "- Steam, https://store.steampowered.com/about/download"
 	echo "- VSCodium, https://github.com/VSCodium/vscodium/releases"
+	echo "- Warp, https://www.warp.dev/download"
 	echo "- Zoom, https://zoom.us/download?os=linux"
 	echo ""
 	echo "# By AppImage"
