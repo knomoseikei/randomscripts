@@ -1,10 +1,6 @@
 #!/bin/bash
 
-############################################ NOTES ##############################################
-# Este script debería ser público desde pastbin.com
-############################################
 # Function to display usage information
-
 show_usage() {
     echo "FavSW Instalaĵa Skripto"
     echo "=========================="
