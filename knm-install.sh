@@ -54,58 +54,34 @@ case $1 in
 	echo "1 - APT programaro por knm-pcx"
 	apt update -y
 	# --------------------TERMINAL--------------------
-	apt install -y curl
-	apt install -y aria2
-	apt install -y tmux
-	apt install -y lsd
+	apt install -y curl aria2
+	apt install -y tldr tmux lsd shc
 	apt install -y imagemagick
-	# Midnight Commander and Ranger
 	apt install -y mc ranger
-	# Disk Usage Analysers 
-	apt install -y ncdu gdu
-	# cpufetch
+	apt install -y ncdu gdu btop
 	apt install -y cpufetch
-	# DuckDuckGo CLI
 	apt install -y ddgr
-	apt install -y btop
-	apt install -y tldr
 	apt install -y git-all
-	apt install -y neovim
-	apt install -y python3-neovim
+	apt install -y neovim python3-neovim
 	apt install -y calcurse
-	# Screensavers
 	apt install -y hollywood sneakers cmatrix
 	apt install -y yt-dlp
 	apt install -y qemu-system
-	# Android Debug Bridge
 	apt install -y adb
 	apt install -y ruby-full
-	# HUGO - Static Site Generator
 	apt install -y hugo
-	# shc (Shell Script Compiler)
-	apt install -y shc
 	apt install -y taskwarrior
 
 	# --------------------GUI--------------------
 
-	apt install -y speedcrunch
-	apt install -y flameshot
-	apt install -y filezilla
-	apt install -y sqlitebrowser
-	apt install -y meld
+	apt install -y rofi
+	apt install -y speedcrunch meld screenruler kruler
+	apt install -y flameshot nomacs
+	apt install -y filezilla sqlitebrowser
 	apt install -y scribus
 	apt install -y tuxguitar
+	apt install -y vlc mpv celluloid cheese
 	
-	# Rofi - A window switcher, Application launcher and dmenu replacement.
-	# remember to run it with the line: $ rofi -i -show drun -modi drun -show-icons
-	apt install -y rofi
-	
-	# Gnome Screen Ruler
-	apt install -y screenruler
-
-	# KDE Ruler
-	apt install -y kruler
-
 	# Barrier (Open-source KVM software)
 	apt install -y barrier
 	
@@ -123,25 +99,15 @@ case $1 in
 	# LMMS (with VST)
 	apt install -y lmms-vst-full
 
-	# nomacs image viewer
-	apt install -y nomacs
-
-	# VLC, mpv, celluloid
-	apt install -y vlc mpv celluloid
-
-	# Cheese - webcam
-	apt install -y cheese
-
 	# iBus - A MUST if you type in many different alphabets
-	apt install -y ibus
-	apt install -y ibus-m17n
+	apt install -y ibus ibus-m17n
 
 	# KeePassXC 
 	add-apt-repository -y ppa:phoerious/keepassxc
 	apt update -y
 	apt install -y keepassxc
 
-	# Solaar - Linux manager for many Logitech devices with Unifying, Bolt, Lightspeed or Nano receiver.
+	# Solaar
 	add-apt-repository -y ppa:solaar-unifying/stable
 	apt update -y
 	apt install -y solaar
@@ -182,46 +148,28 @@ case $1 in
 	echo "2 - APT programaro por knm-lapx"
 	apt update -y
 	# --------------------TERMINAL--------------------
-	apt install -y curl
-	apt install -y aria2
-	apt install -y tmux
-	apt install -y lsd
+	apt install -y curl aria2
+	apt install -y tldr tmux lsd shc
 	apt install -y imagemagick
 	apt install -y mc ranger
-	apt install -y ncdu gdu
+	apt install -y ncdu gdu btop
 	apt install -y cpufetch
 	apt install -y ddgr
-	apt install -y btop
-	apt install -y tldr
 	apt install -y git-all
-	apt install -y neovim
-	apt install -y python3-neovim
+	apt install -y neovim python3-neovim
 	apt install -y calcurse
 	apt install -y hollywood sneakers cmatrix
 	apt install -y yt-dlp
 	apt install -y hugo
-	apt install -y shc
 	apt install -y taskwarrior
 	# --------------------- GUI ---------------------
-	apt install -y speedcrunch
-	apt install -y flameshot
-	apt install -y filezilla
-	apt install -y sqlitebrowser
-	apt install -y meld
 	apt install -y rofi
-	apt install -y kruler
-	apt install -y barrier
-	
-	apt install -y baobab
-	apt install -y gnome-disk-utility
-	apt install -y gparted
-	apt install -y gsmartcontrol
-
-	apt install -y nomacs
-	apt install -y vlc mpv celluloid
-	apt install -y cheese
-	apt install -y ibus
-	apt install -y ibus-m17n
+	apt install -y speedcrunch meld kruler
+	apt install -y ibus ibus-m17n
+	apt install -y filezilla barrier sqlitebrowser
+	apt install -y baobab gnome-disk-utility gparted gsmartcontrol
+	apt install -y flameshot nomacs
+	apt install -y vlc mpv celluloid cheese
 
 	# KeePassXC 
 	add-apt-repository -y ppa:phoerious/keepassxc
@@ -257,24 +205,19 @@ case $1 in
 	;;
     3)
 	echo "3 - APT programaro por knm-cdb"
-	apt install -y curl
-	apt install -y aria2
-	apt install -y tmux
-	apt install -y lsd
+	apt update -y
+	apt install -y curl aria2
+	apt install -y tldr tmux lsd shc
 	apt install -y imagemagick
 	apt install -y mc ranger
-	apt install -y ncdu gdu
+	apt install -y ncdu gdu btop
 	apt install -y cpufetch
 	apt install -y ddgr
-	apt install -y btop
-	apt install -y tldr
 	apt install -y git-all
-	apt install -y neovim
-	apt install -y python3-neovim
+	apt install -y neovim python3-neovim
 	apt install -y calcurse
 	apt install -y hollywood sneakers cmatrix
 	apt install -y yt-dlp
-	apt install -y shc
 	apt install -y taskwarrior
 	;;
     4)
