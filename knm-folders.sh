@@ -28,6 +28,8 @@ create_folder "_bor" "$HOME/Pictures"
 create_folder "_ico" "$HOME/Pictures"
 create_folder "_svg" "$HOME/Pictures"
 create_folder "_memes" "$HOME/Pictures"
+create_folder "_wallpaper" "$HOME/Pictures"
 
 create_folder "_bor" "$HOME/Videos"
 create_folder "_obs" "$HOME/Videos"
+create_folder "_memes" "$HOME/Videos"
